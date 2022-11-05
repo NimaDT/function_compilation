@@ -8,5 +8,5 @@ def NPV_real_estate(operating_net, required_rate_of_return, inflation):
     Returns:
     NPV (float): The Net Present Value, i.e. the appropiate investment for a property given the parameters.
         """
-    NPV = operation_net * ((1 + inflation) / ((1 + required_rate_of_return) - (1 + inflation)))
+    NPV = operating_net * ((1 + inflation) / ((1 + required_rate_of_return) - (1 + inflation)))
     return NPV
